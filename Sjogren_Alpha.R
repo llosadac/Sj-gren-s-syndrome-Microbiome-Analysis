@@ -257,7 +257,7 @@ saveRDS(PS.Norm, "C:/Users/Laura L/Documents/TG Microbiota Sjogren/DADA2_Outputs
 saveRDS(alphadiv, "C:/Users/Laura L/Documents/TG Microbiota Sjogren/DADA2_Outputs/phyloseq_outputs/alphadiv.rds") ##Alpha diverisity tables
 
 
-## ALPHA DIVERSIDAD Y BETA DIVERSIDAD
+## ALPHA AND BETA DIVERSITY
 
 # Check packages 
 library(phyloseq)
@@ -404,3 +404,4 @@ plot_heatmap(lefse_model,
              row_names_gp = gpar(fontsize = 9),
              height = unit(12, "cm"))
              
+
